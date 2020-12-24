@@ -1,0 +1,202 @@
+/* Start navbar */
+#navbar{
+  position: fixed;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6));
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  opacity: 1;
+}
+
+.brand{
+  float: left;
+  margin-left: 50px;
+  margin-top:5px;
+  letter-spacing: 3px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #a2cce3;
+}
+#navbar .nav-list ul{
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+#navbar .nav-list ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+/* End navbar */
+
+/* Start header */
+#header{
+  position: relative;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../header.jpg") center top no-repeat;
+  height: 80vh;
+  width: 100%;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  top: 0;
+  overflow: hidden;
+}
+
+.header-content{
+  position: relative;
+  color: #fff;
+  text-align: center;
+  top: 150px;
+}
+
+#header .header-content h2{
+  padding: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#header .header-content p{
+  padding: 0px 100px;
+  padding-bottom: 30px;
+}
+
+.header-content .btn-primary{
+  width: 170px;
+  background-color: #2C556A;
+  border-radius: 50px;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  border: 1px solid #68A4C4;
+}
+.header-content .btn-primary:hover{
+  background-color: #68A4C4;
+}
+
+.arrows{
+   width: 28px;
+   height: 28px;
+   border-color: #000;
+   position: absolute;
+   top: 50%;
+   margin-top: -31px;
+   cursor: pointer;
+}
+.prev{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(45deg);
+   left: 10px;
+}
+   
+.next{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(-135deg);
+   right: 10px;
+}
+.arrows:hover{
+  color: #68A4C4;
+}
+/* End header */
+
+/* Start services */
+#services{
+  margin: 80px auto;
+}
+
+#services .form{
+  text-align: center;
+  padding: 40px;
+}
+
+#services .form-1:hover{
+  border: 1px solid #FF689B;
+}
+#services .form-2:hover{
+  border: 1px solid #3fcdc7;
+}
+#services .form-3:hover{
+  border: 1px solid #41cf2e;
+}
+#services .form-4:hover{
+  border: 1px solid #2282ff;
+}
+
+.form h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form p{
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.fa-dribbble{
+  color: #FF689B;
+  font-size: 40px;
+  height: 60px;
+}
+.fa-file-alt{
+  color: #3fcdc7;
+  font-size: 40px;
+  height: 60px;
+}
+.fa-tachometer-alt{
+  color: #41cf2e;
+  font-size: 40px;
+  height: 60px;
+}
+.fa-globe-americas{
+  color: #2282ff;
+  font-size: 40px;
+  height: 60px;
+}
+
+/* End services */
+
+@media (max-width: 1010px){
+  .nav-list{
+    display: none;
+  }
+  
+  #navbar .hamburger {
+    color: #41cf2e;
+    float: right;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transform: scale(.8);
+    margin-right: 20px;
+  }
+  #navbar .hamburger .bar {
+    height: 2px;
+    width: 30px;
+    position: relative;
+    background-color: white;
+    z-index: -1;
+  }
+
+}
+
+@media (max-width: 768px){
+  .header-content{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 50px;
+  }
+}
