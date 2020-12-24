@@ -1,2 +1,2 @@
 # moderna
-front-end page
+front-end Page
