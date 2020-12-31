@@ -1,3 +1,3 @@
 # moderna
 front-end Page
-https://bondok.netlify.app/
+https://bondok6.github.io/moderna/
