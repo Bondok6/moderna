@@ -1,3 +1,3 @@
-# moderna
-front-end Page
+# Moderna
+Front-end Page
 https://bondok6.github.io/moderna/
